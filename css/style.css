@@ -271,6 +271,7 @@ a {
     align-items: center;
     justify-content: space-between;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .img-poss {
@@ -420,7 +421,6 @@ a {
 }
 
 .menu-title-span{
-    width: 653px;
     font-weight: 700;
     font-size: 48px;
     line-height: 67px;
@@ -429,9 +429,7 @@ a {
     text-align: center;   
 }
 
-.menu-title-u{
-    width: 1018px;
-}
+
 .menu-title-ul ul{
     display: flex;
     align-items: center;

@@ -128,14 +128,16 @@
         width: 100%;
     }
 
-    .offer2 {
-        display: none;
+    .offer2{
+        margin: 100px 0;
+
     }
 
     .offer3 {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 100px;
     }
 
     .content-offers {
@@ -148,13 +150,13 @@
     }
 
     /* about UA */
-    .aboutUs{
+    .aboutUs {
         margin-top: 65px;
         display: flex;
         flex-direction: column;
     }
 
-    .aboutUs-left{
+    .aboutUs-left {
         width: auto;
     }
 
@@ -162,24 +164,59 @@
         display: none;
     }
 
-    .aboutUs-img{
+    .aboutUs-img {
         width: 330px;
         height: 410px;
     }
 
-    .div-aboutus{
+    .div-aboutus {
         display: flex;
         margin-top: 64px;
         width: auto;
     }
 
-    .span-p{
+    .span-p {
 
         text-align: start;
     }
 
-    .icon{
+    .icon {
         gap: 20px;
     }
+
+    /* menu title */
+
+    .menu-title-span {
+        width: auto;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 67px;
+        color: rgba(255, 255, 255, 1);
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .menu-ban {
+        display: none;
+    }
+
+    .menu-title-u {
+        width: auto;
+    }
+
+    .menu-title-ul ul {
+        gap: 5px;
+
+    }
+
+    .menu-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding-bottom: 8px;
+        padding-top: 120px;
+    }
+
 
 }
