@@ -214,3 +214,7 @@ a {
     z-index: -2;
     bottom: 5%;
 }
+
+.picture-arrow3{
+    display: none;
+}
