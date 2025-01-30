@@ -60,11 +60,11 @@
     }
 
     .picture_header-right {
-        order: 2;
+        offer: 2;
     }
 
     .picture_header-left {
-        order: 1;
+        offer: 1;
         margin-bottom: 58px;
     }
 
@@ -108,4 +108,8 @@
         top: 80%;
         left: 77%;
     }
+
+    /* offers */
+
+
 }

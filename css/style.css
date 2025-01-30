@@ -6,7 +6,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: boffer-box;
 }
 
 body {
@@ -85,11 +85,11 @@ a {
 }
 
 .picture_header-left {
-    order: 1;
+    offer: 1;
 }
 
 .picture_header-right {
-    order: 0;
+    offer: 0;
     position: relative;
 }
 
@@ -143,15 +143,15 @@ a {
 .input-picture_header {
     width: 99%;
     height: 53px;
-    border-radius: 99px;
+    boffer-radius: 99px;
     background-color: transparent;
-    border: 1px solid white;
+    boffer: 1px solid white;
     padding: 0 50px;
 }
 
 .menu-btn {
-    border: none;
-    border-radius: 99px;
+    boffer: none;
+    boffer-radius: 99px;
     color: rgba(12, 13, 13, 1);
     font-weight: 399;
     font-size: 17px;
@@ -171,50 +171,149 @@ a {
     font-size: 17px;
     font-weight: 400;
 }
-.flash-div{
+
+.flash-div {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.flash-div img{
+.flash-div img {
     padding: 20px 18px 17px 17px;
     background-color: rgba(13, 13, 13, 1);
     box-shadow: 0px 15px 30px 0px rgba(223, 105, 81, 0.3);
-    border-radius: 100%;
+    boffer-radius: 100%;
 }
 
 
-.picture-arrow2{
+.picture-arrow2 {
     position: absolute;
     right: 5.5%;
     z-index: -1;
 }
-.picture-barg{
+
+.picture-barg {
     position: absolute;
     left: 90%;
     bottom: 14%;
 }
 
-.picture-arrow{
+.picture-arrow {
     position: absolute;
     left: 8%;
     top: 95%;
 }
 
-.picture-orange{
+.picture-orange {
     position: absolute;
     top: 10%;
     left: 100%;
 }
 
-.picture-hard{
+.picture-hard {
     position: absolute;
     left: 76%;
     z-index: -2;
     bottom: 5%;
 }
 
-.picture-arrow3{
+.picture-arrow3 {
     display: none;
+}
+
+/* offers title */
+
+.offer-tittle-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 65px;
+    margin-top: 125px;
+}
+
+.h6-tittle {
+    font-size: 48px;
+    color: white;
+}
+
+.h6-tittle span {
+    color: #f65743;
+}
+
+.text-tittle {
+    text-align: center;
+    width: 856px;
+    opacity: 80%;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* offers */
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 310px;
+    height: 368px;
+    background: linear-gradient(179.69deg, rgba(255, 255, 255, 0) -31.53%, #F54748 303.75%);
+    boffer-radius: 20px;
+    padding: 24px;
+    position: relative;
+}
+
+.content-offers {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.img-poss {
+    position: absolute;
+    bottom: 0;
+    top: 100%;
+    right: -70px;
+}
+
+.img-offer {
+    position: absolute;
+    top: -120px;
+}
+
+.people {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 131px;
+}
+
+.offer-tittle {
+    font-size: 24px;
+    color: #F65F5F;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.offer p {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+}
+
+.people span {
+    color: white;
+    font-size: 18px;
+}
+
+.poss-btn {
+    position: absolute;
+    bottom: -5%;
 }
