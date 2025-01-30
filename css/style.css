@@ -85,11 +85,11 @@ a {
 }
 
 .picture_header-left {
-    offer: 1;
+    order: 1;
 }
 
 .picture_header-right {
-    offer: 0;
+    order: 0;
     position: relative;
 }
 

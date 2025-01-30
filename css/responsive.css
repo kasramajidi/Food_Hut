@@ -147,4 +147,39 @@
         right: -24px;
     }
 
+    /* about UA */
+    .aboutUs{
+        margin-top: 65px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutUs-left{
+        width: auto;
+    }
+
+    .vector {
+        display: none;
+    }
+
+    .aboutUs-img{
+        width: 330px;
+        height: 410px;
+    }
+
+    .div-aboutus{
+        display: flex;
+        margin-top: 64px;
+        width: auto;
+    }
+
+    .span-p{
+
+        text-align: start;
+    }
+
+    .icon{
+        gap: 20px;
+    }
+
 }
