@@ -9,3 +9,69 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgba(13, 13, 13, 1);
+    font-family: Sofia Pro;
+}
+
+.container {
+    padding: 0 70px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header nav */
+
+.container-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.menu-logo{
+    display: none;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-div{
+    margin-right: 96px;
+}
+
+.menu-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;  
+}
+
+.menu-ul li a{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu-btn{
+    border: none;
+    border-radius: 100px;
+    color: rgba(13, 13, 13, 1);
+    font-weight: 400;
+    font-size: 18px;
+    background-color: rgba(246, 95, 95, 1);
+    padding: 10px 20px;
+}
+
+/*  */
