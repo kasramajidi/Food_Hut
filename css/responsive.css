@@ -1,0 +1,21 @@
+@media (max-width:428px) {
+
+    .container{
+        padding: 0 24px;
+    }
+
+    /* header nav */
+    .img-logo{
+        width: 97px;
+        height: 62px;
+    }
+    .menu-logo{
+        display: block;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    /* header Image */
+}
